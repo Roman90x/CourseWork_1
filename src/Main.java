@@ -16,7 +16,7 @@ public class Main {
 
         printListEmployeeWithData();
         System.out.println();
-        //sumExpensesOnSalaryInMonth();
+        sumExpensesOnSalaryInMonth();
     }
 
     public static void printListEmployeeWithData() {
@@ -25,7 +25,12 @@ public class Main {
                 System.out.println(employee);
         }
     }
-
-    //public static void sumExpensesOnSalaryInMonth (int salary)
-
+    public static void sumExpensesOnSalaryInMonth (int salary) {
+        int sum = 0;
+        for (Employee employee : name){
+            sum += salary;
+            employee.getSalary();
+        }
+        System.out.println(salary);
+    }
 }
