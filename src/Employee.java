@@ -14,8 +14,13 @@ public class Employee {
         this.id = counter++;
     }
 
+
     public String getName() {
         return name;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public int getDepartment() {
